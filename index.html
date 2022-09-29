@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget App</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1><span class="heading">Budget</span> App</h1>
+    <div class="budgetheader">
+        <label for="" class="labels1">Your Income</label>
+        <input type="number" placeholder="Income" class="income">
+        <label for="" class="budget">Available Budget-</label>
+    </div>
+    <h3> Enter Expense Details</h3>
+    <div class="main">
+    <div class="input_div">
+   
+        <div class="section">
+            <label class="labels">Expense</label>
+            <input type="text" class="input" >     
+        </div>
+
+        <div class="section">
+          <label class="labels">Description</label>
+          <textarea id="desc" class="input" name="dec" rows="4" cols="50" ></textarea>
+      </div>
+
+        <div class="section">
+          <label class="labels">Date</label>
+          <input type="date" id="expensedate" class="input" name="expensedate">
+      </div>
+   
+
+    <div class="section">
+        <label class="labels">Amount</label>
+        <input type="number" class="input"  name="amount" id="amount">
+    </div>
+
+    <div class="section">
+        <label class="labels">Payment Mode</label>
+        <select name="mode" id="mode" class="input">
+            <option value="credit">Credit</option>
+            <option value="debit">Debit</option>
+            <option value="cash">Cash</option>
+            <option value="onlinepayment">Online Payment</option>
+          </select>
+    </div>
+  
+        <button class="addButton">Add</button>
+    </div>
+
+    <div class="container">
+        <!-- <ul class="listcontainer">
+
+        </ul> -->
+        
+    </div>
+</div>
+    <script type="text/javascript" src="./index.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"></script>
+</body>
+</html>
